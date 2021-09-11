@@ -1,0 +1,25 @@
+{
+  "name": "razaviv-common",
+  "version": "1.0.35",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "pub": "npm version patch && npm run build && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8"
+  }
+}
