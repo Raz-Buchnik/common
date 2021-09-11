@@ -1,5 +1,5 @@
 export interface SignParams {
-  data: any
+  data: string
   privateKey: string
 }
 
