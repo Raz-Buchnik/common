@@ -1,3 +1,6 @@
 export * from './Main'
 export * from './Sign'
 export * from './GenPair'
+export * from './Enc'
+export * from './Dec'
+export * from './Verify'
