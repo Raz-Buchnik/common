@@ -16,7 +16,7 @@ export const errorHandler = ({
   if (!err) return {}
 
   // if programmer error
-  if (!err.is_operational) {
+  if (!err?.is_operational) {
     if (err?.stack) {
       console.error(err.stack)
     }
