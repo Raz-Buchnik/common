@@ -1,6 +1,5 @@
 import { Request, Response, NextFunction } from 'express'
 import { NotFoundError } from '../errors'
-import { CastError } from '../cast'
 import { errorHandler } from '../services'
 
 export const notFoundRouter = (

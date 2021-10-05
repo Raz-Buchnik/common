@@ -4,7 +4,7 @@ import { CustomError, ServerError } from '../errors'
 
 export interface ErrorHandlerParams {
   err: any | CustomError,
-  logger: Logger
+  logger?: Logger
 }
 
 export interface ErrorHandlerResult {
