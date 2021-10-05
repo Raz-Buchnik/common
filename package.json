@@ -1,6 +1,6 @@
 {
   "name": "razaviv-common",
-  "version": "1.0.39",
+  "version": "1.0.40",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nanoid": "^3.1.23"
+    "nanoid": "^3.1.23",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
