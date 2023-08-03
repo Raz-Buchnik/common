@@ -27,3 +27,5 @@ You can add an image or a code block, too.
 ```
 
 </details>
+
+[some text](https://google.com)
